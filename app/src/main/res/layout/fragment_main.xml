@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMain">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="Lahore Explorer"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subheading" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_armacost"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="1"
+                app:srcCompat="@drawable/frag_armacost" />
+
+            <ImageButton
+                android:id="@+id/btn_army"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="2"
+                app:srcCompat="@drawable/frag_armymeusium" />
+
+            <ImageButton
+                android:id="@+id/btn_badshahi"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="3"
+                app:srcCompat="@drawable/frag_badshahi" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_iqbal"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="4"
+                app:srcCompat="@drawable/frag_iqbal" />
+
+            <ImageButton
+                android:id="@+id/btn_fort"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="5"
+                app:srcCompat="@drawable/frag_lahorefort" />
+
+            <ImageButton
+                android:id="@+id/btn_liberty"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="6"
+                app:srcCompat="@drawable/frag_liberty" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_meusium"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="7"
+                app:srcCompat="@drawable/frag_meusium" />
+
+            <ImageButton
+                android:id="@+id/btn_minar"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="8"
+                app:srcCompat="@drawable/frag_minar" />
+
+            <ImageButton
+                android:id="@+id/btn_wazirkhan"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:scaleType="fitCenter"
+                android:tag="9"
+                app:srcCompat="@drawable/frag_wazirkhan" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:text="Welcome to"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
